@@ -1,0 +1,37 @@
+.text{
+text-align: center;
+}
+
+.text1{
+    text-align: center;
+    font-size: medium;
+    color:darkgreen;
+}
+
+.we{
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+}
+
+/* Home.css */
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-text {
+    animation: scrollText 20s linear infinite;
+    color:darkgreen;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
